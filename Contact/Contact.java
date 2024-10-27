@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Contact {
-    private HashMap<String, ArrayList<String>> contactList = new HashMap<String, ArrayList<String>>();
+    private Map<String, ArrayList<String>> contactList = new TreeMap<>();
 
     /**
      * Add a contact to the directory
@@ -15,7 +15,6 @@ public class Contact {
      * @return contact creation status
      */
     public String addContact(String name, String number) {
-        System.out.println("function called");
         // String isNumberAlreadyExist = this.isNumberAlreadyExist(number);
         // if (isNumberAlreadyExist.length() != 0) {
         //     return "Number is already present in the contact name : " + isNumberAlreadyExist;
