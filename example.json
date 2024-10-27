@@ -1,0 +1,16 @@
+{
+    "phonebook" : [
+        {
+            "user" : {
+                "name" : "",
+                "password" : "",
+                "location" : "",
+                "accountId" : "",
+                "contact" : {
+                    "naveen" : ["764", "876"],
+                    "sjv" : ["123", "345"]
+                }
+            }
+        }
+    ]
+}
